@@ -1,0 +1,28 @@
+html
+    head 
+        title  hello pug |
+      
+        
+            
+    
+    body
+        - var sayi = '15';
+        
+        span(style = "color:white; background-color:black ") 
+        | Merhaba  #{name.toUpperCase()} #{age}
+        br
+        =sayi
+        hr 
+        
+        - var sayi2 = 3
+        
+        if !sayi5
+            | error message
+        
+        else if sayi2 == 5
+            | error message
+         
+        hr 
+         
+        include other
+        
